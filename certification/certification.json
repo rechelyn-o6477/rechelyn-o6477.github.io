@@ -2,10 +2,10 @@
     {
         "name": "การเริ่มต้นธุรกิจสำหรับ SME มือใหม่",
         "by": "DBD Academy",
-        "image": "../certification/DBD_Academy_Startup_for_SME_2.png",
+        "image": "./certification/DBD_Academy_Startup_for_SME_2.png",
         "category":"business",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/DBD_Academy_Startup_for_SME_2.png"
         }
     },{
         "name": "Startup for SME",
@@ -13,7 +13,7 @@
         "image": "./certification/DBD_Academy_Startup_for_SME.png",
         "category":"business",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/DBD_Academy_Startup_for_SME.png"
         }
     },{
         "name": "Professional Qualification Level 3 - System Degign Analyst",
@@ -21,7 +21,7 @@
         "image": "./certification/Page_5.png",
         "category":"software and application",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/Page_5.png"
         }
     },{
         "name": "System Design Analyst",
@@ -29,7 +29,7 @@
         "image": "./certification/KMUTNB_TEA_System_Analyst_and_Design.png",
         "category":"software and application",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/KMUTNB_TEA_System_Analyst_and_Design.png"
         }
     },{
         "name": "Artificial Intelligence Technology in the Industrial sector",
@@ -37,7 +37,7 @@
         "image": "./certification/EEC_AI_2022.png",
         "category":"ai technology industrial",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/EEC_AI_2022.png"
         }
     },{
         "name": "RTC English Course at the CEFR Level B2",
@@ -45,15 +45,15 @@
         "image": "./certification/RTC_English_Language_Course_B2.png",
         "category":"language",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/RTC_English_Language_Course_B2.png"
         }
     },{
         "name": "NECTEC Internet of Things Technology Camp 2019",
         "by": "NECTEC",
-        "image": "../certification/NECTEC_IoT_Camp_2019.png",
+        "image": "./certification/NECTEC_IoT_Camp_2019.png",
         "category":"elcetronics technology",
         "links": {
-            "credentials": ""
+            "credentials": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io/blob/main/assets/certification/NECTEC_IoT_Camp_2019.png"
         }
     }
 ]
