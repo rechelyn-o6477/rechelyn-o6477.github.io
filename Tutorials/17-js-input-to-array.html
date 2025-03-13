@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17-js-input-to-array.html</title>
+
+    <script>
+        let std_name = []
+        let tbl_names = ""
+        let no = 0
+        function input_name() {
+            tbl_names += "<table border = 1>" + "<tr>" + "<th>" + "No." + "</th>" + "<th>" + "Name" + "</th>" + "</tr>"
+
+            std_name.push(document.getElementById("fname").value)
+            console.log(std_name)
+            for (let i in std_name) {
+                no += 1
+                tbl_names += "<tr>" + "<td>" + no + "</td>" + "<td>" + std_name[i] + "</td>" + "</tr>"   
+            }
+            tbl_names += "</table>"
+            console.log(tbl_names)
+            document.getElementById("output").innerHTML = tbl_names
+            tbl_names = "" 
+            no = 0
+        }
+    </script>
+</head>
+<body>
+    Please Enter Name : <input type="text" name="" id="fname">
+    <br>
+    <br>
+    <button onclick="input_name()">Submit</button>
+    <br>
+    <br>
+    <div id="output"></div>
+</body>
+</html>

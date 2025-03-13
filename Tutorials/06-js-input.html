@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-js-input.html</title>
+
+    <script>
+        function show_output() {
+            // document.write("Hello")
+            // doucument.write(document.getElementById("text1").value)
+            document.getElementById("output").innerHTML = document.getElementById("text1").value
+        }
+
+        function show_output2() {
+            document.getElementById("output").innerHTML = document.getElementById("text2").value
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="text1">
+    <br>
+    <br>
+    <input type="button" value="Submit" onclick="show_output()">
+    <br>
+    <br>
+    <textarea name="" id="text2" cols="30" rows="5"></textarea>
+    <br>
+    <br>
+    <button onclick="show_output2()">Click</button>
+    <br>
+    <br>
+    <p id="output"></p>
+</body>
+</html>

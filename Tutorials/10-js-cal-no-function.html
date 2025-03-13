@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-js-cal-no-function.html</title>
+</head>
+<body>
+    Num1 : <input type="text" name="" id="num1">
+    <br>
+    <br>
+    Num2 : <input type="text" name="" id="num2">
+    <br>
+    <br>
+    <button onclick="document.getElementById('output').innerHTML = parseInt(document.getElementById('num1').value) + parseInt(document.getElementById('num2').value)"> + </button>
+    <button onclick="document.getElementById('output').innerHTML = parseInt(document.getElementById('num1').value) - parseInt(document.getElementById('num2').value)"> - </button>
+    <br>
+    <br>
+    <button onclick="document.getElementById('output').innerHTML = parseInt(document.getElementById('num1').value) * parseInt(document.getElementById('num2').value)"> * </button>
+    <button onclick="document.getElementById('output').innerHTML = parseInt(document.getElementById('num1').value) / parseInt(document.getElementById('num2').value)"> / </button>
+    <br>
+    <br>
+    Ans : <span id="output"></span>
+</body>
+</html>

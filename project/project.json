@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Website Resume",
+        "tech": "HTML, CSS, JS & BOOTSTRAP",
+        "image": "./project/web-resume.png",
+        "desc": "This is my project for resume.",
+        "links": {
+            "code": "https://github.com/rechelyn-o6477/rechelyn-o6477.github.io.git"
+        }
+    }
+]

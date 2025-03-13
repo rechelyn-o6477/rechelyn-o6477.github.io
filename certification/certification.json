@@ -1,0 +1,59 @@
+[
+    {
+        "name": "การเริ่มต้นธุรกิจสำหรับ SME มือใหม่",
+        "by": "DBD Academy",
+        "image": "../certification/DBD_Academy_Startup_for_SME_2.png",
+        "category":"business",
+        "links": {
+            "credentials": ""
+        }
+    },{
+        "name": "Startup for SME",
+        "by": "DBD Academy",
+        "image": "./certification/DBD_Academy_Startup_for_SME.png",
+        "category":"business",
+        "links": {
+            "credentials": ""
+        }
+    },{
+        "name": "Professional Qualification Level 3 - System Degign Analyst",
+        "by": "TPQI",
+        "image": "./certification/Page_5.png",
+        "category":"software and application",
+        "links": {
+            "credentials": ""
+        }
+    },{
+        "name": "System Design Analyst",
+        "by": "KMUTNB TEA",
+        "image": "./certification/KMUTNB_TEA_System_Analyst_and_Design.png",
+        "category":"software and application",
+        "links": {
+            "credentials": ""
+        }
+    },{
+        "name": "Artificial Intelligence Technology in the Industrial sector",
+        "by": "depa x TNI x SIMTec x RTC",
+        "image": "./certification/EEC_AI_2022.png",
+        "category":"ai technology industrial",
+        "links": {
+            "credentials": ""
+        }
+    },{
+        "name": "RTC English Course at the CEFR Level B2",
+        "by": "RTC Language Center",
+        "image": "./certification/RTC_English_Language_Course_B2.png",
+        "category":"language",
+        "links": {
+            "credentials": ""
+        }
+    },{
+        "name": "NECTEC Internet of Things Technology Camp 2019",
+        "by": "NECTEC",
+        "image": "../certification/NECTEC_IoT_Camp_2019.png",
+        "category":"elcetronics technology",
+        "links": {
+            "credentials": ""
+        }
+    }
+]

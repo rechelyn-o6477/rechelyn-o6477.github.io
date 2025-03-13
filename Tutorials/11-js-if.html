@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11-js-if.html</title>
+
+    <script>
+        function High_Low() {
+            let n1 = document.getElementById("num1").value
+            if (n1 > 5) {
+                document.getElementById("output").innerHTML = "High"
+            } else {
+                document.getElementById("output").innerHTML = "Low"
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="num1">
+    <br>
+    <br>
+    <button onclick="High_Low()">Submit</button>
+    <br>
+    <br>
+    <p id="output"></p>
+</body>
+</html>

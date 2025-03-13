@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13-js-switch.html</title>
+</head>
+<body>
+    Input Number : <input type="text" name="" id="num1">
+    <br>
+    <br>
+    <button onclick="HighLow()">Submit</button>
+    <br>
+    <br>
+    <span id="output"></span>
+</body>
+<script>
+    let n1
+    let ans
+    function HighLow() {
+        n1 = parseInt(document.getElementById("num1").value)
+        // switch (n1) {
+        //     case 0 :
+        //         ans = "Low"
+        //         break;
+        //     case 1 :
+        //         ans = "Low"
+        //         break;
+        //     case 2 :
+        //         ans = "Low"
+        //         break;
+        //     case 3 :
+        //         ans = "Low"
+        //         break;
+        //     case 4 :
+        //         ans = "Low"
+        //         break;
+        //     case 5 :
+        //         ans = "Low"
+        //         break;
+        //     case 6 :
+        //         ans = "High"
+        //         break;
+        //         case 7 :
+        //         ans = "High"
+        //         break;
+        //         case 8 :
+        //         ans = "High"
+        //         break;
+        //         case 9 :
+        //         ans = "High"
+        //         break;
+        //     default :
+        //         ans = "Error"
+        //         break;
+        // }
+        switch (true) {
+            case (n1 < 0):
+                ans = "Error"
+                break
+            case (n1 <= 5):
+                ans = "Low"
+                break
+            case (n1 <= 9):
+                ans = "High"
+                break
+            default:
+                ans = "Error"
+                break
+        }
+        document.getElementById("output").innerHTML = ans
+    }
+</script>
+</html>
